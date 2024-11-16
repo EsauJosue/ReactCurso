@@ -11,6 +11,7 @@ const ComponentTest = ({name, date, content}) => {
         <div className="box__content">
             <p>{content}</p>
         </div>
+        <button onClick={ function(){console.log("Botón presionado")}}> Ingresar</button>
     </div>
     </>
   )
