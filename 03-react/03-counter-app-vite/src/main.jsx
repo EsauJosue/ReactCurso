@@ -1,10 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import React from 'react'
+import ReactDOM from 'react-dom/client';
+import { FirstApp } from './FirstApp';
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+// import { HellowWorldApp} from './HelloWorldApp'
+import './styles.css';
+import { CounterApp } from './CounterApp';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        {/* <FirstApp title="hola" subtitle="16 de Noviembre"/> */}
+        <CounterApp value = {20358}/>
+    </React.StrictMode>
+);
