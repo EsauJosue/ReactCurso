@@ -10,8 +10,8 @@ import ComponentTest from './ComponentTest';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        {/* <FirstApp title="hola" subtitle="16 de Noviembre"/> */}
-        <CounterApp value = {1}/>
+        <FirstApp title="Hola, Soy Vegeta" subtitle="16 de Noviembre"/>
+        {/* <CounterApp value = {1}/> */}
         {/* <ComponentTest name={nombre} date={fecha} content={contenido}></ComponentTest> */}
     </React.StrictMode>
 );

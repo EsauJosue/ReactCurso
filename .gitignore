@@ -16,7 +16,7 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
-#DS_Store en todas las carpetas
+#DS_Store en todas las carpetas antes y después de la carpeta
 **/.DS_Store
 .DS_Store
 *.suo
